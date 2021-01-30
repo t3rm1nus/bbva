@@ -30,7 +30,7 @@ el flujo al recibir los datos sería así:
 
 efecto   ----->  acción  ----->  reducer ----->  nuevo estado  -----> COMPONENTE  -----> ACTUALIZAR VISTA
 
-El formulario de login es reactivo y he programado lass validaciones de los dos campos.
+El formulario de login es reactivo y he programado las validaciones de los dos campos.
  
 La página de cuenta está protegida por un guard (auth.guard) de tal manera que si se intenta entrar a la página sin pasar por el login primero o se recarga estando en ella, detecta que no se se está acreditado correctamente y se redirige al login de nuevo.
 

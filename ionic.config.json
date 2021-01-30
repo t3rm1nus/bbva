@@ -1,0 +1,7 @@
+{
+  "name": "bbva",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

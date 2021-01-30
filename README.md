@@ -28,7 +28,7 @@ post   --------->  store dispatch   ---------> acción  ---------> efecto
 
 el flujo al recibir los datos sería así:
 
-efecto   --------->  acción  --------->  reducer --------->  nuevo estado  ---------> COMPONENTE  ---------> ACTUALIZAR VISTA
+efecto   ----->  acción  ----->  reducer ----->  nuevo estado  -----> COMPONENTE  -----> ACTUALIZAR VISTA
 
 El formulario de login es reactivo y he programado lass validaciones de los dos campos.
  
